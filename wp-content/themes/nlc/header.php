@@ -38,14 +38,14 @@
         <div class="header__top container">
             <div class="main-header">
                 <div class="main-header__logo logo">
-                    <a class="logo__link" href="/"><img class="logo__image" src="<?=$logo; ?>" alt="New Life Company"></a>
+                    <a class="logo__link" href="/"><img class="logo__image" src="<?=$logo;?>" alt="New Life Company"></a>
                 </div>
                 <div class="main-header__contacts">
-                    <p class="main-header__phone"><a href="#" class="main-header__phone-link" href="tel:<?=$phone; ?>"><?= $phone; ?></a></p>
+                    <p class="main-header__phone"><a href="#" class="main-header__phone-link" href="tel:<?=$phone;?>"><?= $phone; ?></a></p>
                     <p class="main-header__free-call">бесплатный звонок по РФ</p>
                 </div>
                 <div class="main-header__button">
-                    <button class="button__header button" type="button"><?=$button_text; ?></button>
+                    <button class="button__header button js-open-popup" type="button"><?=$button_text;?></button>
                 </div>
                 <div class="main-header__menu-button">
                     <button class="js-toggle-menu button-hamburger" type="button">

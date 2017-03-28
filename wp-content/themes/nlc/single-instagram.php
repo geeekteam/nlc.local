@@ -21,10 +21,6 @@ get_header(); ?>
                 ?>
             </div>
         </div>
-        <p class="tac">
-            <a href="<?php echo get_category_link(6);?>" class="button">Вернуться к списку статей</a>
-
-        </p>
     </div>
 
     <div class="section-form">

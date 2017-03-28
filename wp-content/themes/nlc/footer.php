@@ -16,6 +16,12 @@
     $instagram_arr = get_field('instagram', 189);
     $facebook = get_field('facebook', 189);
 
+    $args = array(
+        'category' => 12,
+        'numberposts' => 4,
+    );
+    $news_arr = get_posts($args);
+    $news_id = $news_arr['ID'];
 
 ?>
 
@@ -27,14 +33,13 @@
                     <div class="st-title fz50 tab-fz35 mob-fz25">Мы в instagram</div>
                 </div>
                 <div class="instagram-grid">
-                    <?php foreach ($instagram_arr as $instagram_post) : ?>
-                        <a href="#" class="instagram-grid__item instagram-item">
+                    <?php foreach ($news_arr as $news) : ?>
+                        <a href="<?=get_post_permalink($news->ID); ?>" class="instagram-grid__item instagram-item">
                             <div class="instagram-item__image-wrap">
-                                <img class="instagram-item__image" src="<?=$instagram_post['image']; ?>" alt="">
+                                <img class="instagram-item__image" src="<?=get_the_post_thumbnail_url($news->ID); ?>" alt="">
                             </div>
-                            <div class="instagram-item__title tab-fz18"><?=$instagram_post['title']; ?></div>
-                            <div class="instagram-item__category tab-fz14">Рубрика: <?=$instagram_post['rubric']; ?></div>
-                            <div class="instagram-item__preview tab-fz14"><?=$instagram_post['descr']; ?></div>
+                            <div class="instagram-item__title tab-fz18"><?=get_the_title($news->ID) ?></div>
+                            <div class="instagram-item__preview tab-fz14"><?=mb_substr($news->post_content, 0, 110)."...";?></div>
                         </a>
                     <?php endforeach; ?>
                 </div>
@@ -134,6 +139,15 @@
             </li>
         <?php endforeach; unset($main_menu); ?>
     </ul>
+</div>
+
+<div class="popup-feedback js-popup-feedback">
+    <span class="js-close-popup popup__close"></span>
+    <div class="popup-feedback__header">
+        <div class="popup-feedback__title">Если есть вопрос, то задайте его нам</div>
+        <div class="popup-feedback__descr">Наши консультанты проконсультируют Вас и ответят на все вопросы</div>
+    </div>
+    <?php echo do_shortcode('[contact-form-7 id="461" title="Contact form 3" html_class="form-request"]'); ?>
 </div>
 
 <div class="js-overlay overlay-site"></div>

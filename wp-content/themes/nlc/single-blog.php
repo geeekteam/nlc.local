@@ -22,7 +22,7 @@ get_header(); ?>
             </div>
         </div>
         <p class="tac">
-            <a href="#" class="button">Вернуться к списку статей</a>
+            <a href="<?php echo get_category_link(7);?>" class="button">Вернуться к списку статей</a>
         </p>
     </div>
 

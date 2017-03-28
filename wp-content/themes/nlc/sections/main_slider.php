@@ -12,7 +12,7 @@
                     <div class="main-slider__subtitle"><?=$slide['subtitle'];?></div>
                     <div class="main-slider__text"><?=$slide['descr'];?></div>
                     <div class="main-slider__button">
-                        <a href="#" class="button"><?=$slide['button_text'];?></a>
+                        <a href="#" class="button js-open-popup" type="button"><?=$slide['button_text'];?></a>
                     </div>
                 </div>
             </div>

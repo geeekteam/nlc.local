@@ -183,6 +183,9 @@ function get_custom_cat_template($single_template) {
     if ( in_category( 'blog' )) {
         $single_template = dirname( __FILE__ ) . '/single-blog.php';
     }
+    if ( in_category( 'instagram' )) {
+        $single_template = dirname( __FILE__ ) . '/single-instagram.php';
+    }
     return $single_template;
 }
 

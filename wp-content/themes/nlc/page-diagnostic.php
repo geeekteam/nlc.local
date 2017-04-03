@@ -25,7 +25,7 @@ $feedback_button_text = get_field('feedback_button_text');
             <h1 class="section-presentation__title st-title fz55"><?=$banner_title; ?></h1>
             <div class="section-presentation__descr"><?=$banner_text; ?></div>
             <p>
-                <a href="#" class="button tab-fz18"><?=$banner_button_text; ?></a>
+                <button class="button tab-fz18 js-open-popup" type="button"><?=$banner_button_text; ?></button>
             </p>
         </div>
     </div>
@@ -51,7 +51,7 @@ $feedback_button_text = get_field('feedback_button_text');
             <div class="js-accordion-item st-accordion__item">
                 <div class="js-accordion-toggle st-accordion__header"><?=$accordion_item['accordion_title'] ?></div>
                 <div class="js-accordion-content st-accordion__content">
-                    <div class="st-accordion__content_wrap">
+                    <div class="st-accordion__content_wrap ova">
                         <?php foreach ($accordion_item as $common_contents):?>
                             <?php if (is_array($common_contents)):?>
                                 <?php foreach($common_contents as $common_content):?>
@@ -75,7 +75,7 @@ $feedback_button_text = get_field('feedback_button_text');
                         </div>
                     </div>
                     <p class="tac">
-                        <a href="#" class="button">Отправить бесплатный запрос</a>
+                        <button class="button js-open-popup" type="button">Отправить бесплатный запрос</button>
                     </p>
                 </div>
             </div>

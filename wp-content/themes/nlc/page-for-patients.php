@@ -18,7 +18,7 @@ $feedback_button_text = get_field('feedback_button_text');
                 <?php foreach ($accordion as $accordion_item):?>
                     <div class="js-accordion-item st-accordion__item">
                         <div class="js-accordion-toggle st-accordion__header"><?=$accordion_item['title'] ?></div>
-                        <div class="js-accordion-content st-accordion__content">
+                        <div class="js-accordion-content st-accordion__content ova">
                             <div class="st-accordion__content_wrap">
                                 <?php foreach ($accordion_item as $common_contents):?>
                                     <?php if (is_array($common_contents)):?>

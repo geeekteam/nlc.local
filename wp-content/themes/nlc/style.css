@@ -13,3 +13,7 @@ div.wpcf7-mail-sent-ok {
     border: none;
     font-size: 20px;
 }
+
+input {
+    border: none;
+}

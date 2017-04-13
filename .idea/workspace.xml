@@ -4,13 +4,8 @@
     <bookmark url="file://$PROJECT_DIR$/wp-content/themes/nlc/category-news.php" line="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="199b55ea-cc87-4a69-93ce-28762568b4af" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/nlc/css/common-old.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/nlc/js/custom-old.js" />
+    <list default="true" id="199b55ea-cc87-4a69-93ce-28762568b4af" name="Default" comment="added slider to diagnostic page">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/nlc/css/common.css" afterPath="$PROJECT_DIR$/wp-content/themes/nlc/css/common.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/nlc/js/custom.js" afterPath="$PROJECT_DIR$/wp-content/themes/nlc/js/custom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/nlc/page-for-patients.php" afterPath="$PROJECT_DIR$/wp-content/themes/nlc/page-for-patients.php" />
     </list>
     <ignored path="nlc.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,8 +39,8 @@
       <file leaf-file-name="page-for-patients.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/nlc/page-for-patients.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="19" column="67" selection-start-line="19" selection-start-column="67" selection-end-line="19" selection-end-column="67" />
+            <state relative-caret-position="459">
+              <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
               <folding>
                 <element signature="e#6#42#0#PHP" expanded="true" />
                 <marker date="1492071680953" expanded="true" signature="776:849" ph="..." />
@@ -424,7 +419,7 @@
       <workItem from="1490765932481" duration="965000" />
       <workItem from="1490768108328" duration="2181000" />
       <workItem from="1491215114194" duration="3628000" />
-      <workItem from="1492068825451" duration="2426000" />
+      <workItem from="1492068825451" duration="2495000" />
     </task>
     <task id="LOCAL-00001" summary="adding readme.md">
       <created>1490682882715</created>
@@ -454,17 +449,24 @@
       <option name="project" value="LOCAL" />
       <updated>1491222579033</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added slider to diagnostic page">
+      <created>1492071703607</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1492071703607</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="198712000" />
+    <option name="totallyTimeSpent" value="198781000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19083156" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19083156" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -520,7 +522,8 @@
     <MESSAGE value="Contact form &amp; instagram rubric done &amp; popup contact form done" />
     <MESSAGE value="Logo style editing" />
     <MESSAGE value="Editing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Editing" />
+    <MESSAGE value="added slider to diagnostic page" />
+    <option name="LAST_COMMIT_MESSAGE" value="added slider to diagnostic page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -865,8 +868,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/nlc/page-for-patients.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="19" column="67" selection-start-line="19" selection-start-column="67" selection-end-line="19" selection-end-column="67" />
+        <state relative-caret-position="459">
+          <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
           <folding>
             <element signature="e#6#42#0#PHP" expanded="true" />
             <marker date="1492071680953" expanded="true" signature="776:849" ph="..." />

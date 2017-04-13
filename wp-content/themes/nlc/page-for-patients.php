@@ -9,11 +9,22 @@ $accordion = get_field('accordion');
 $feedback_title = get_field('feedback_title');
 $feedback_subtitle = get_field('feedback_subtitle');
 $feedback_button_text = get_field('feedback_button_text');
+$companies_slider = get_field('companies_slider')
 
 ?>
 <?php if ($accordion):?>
     <div class="section">
         <div class="container">
+            <div class="company-slider owl-carousel">
+                <?php foreach ($companies_slider as $slide): ?>
+                    <a class="company-slider__slide" target="_blank" href="<?= $slide['company_link']?>">
+                        <img class="company-slider__slide-image" src="<?=$slide['image']?>" alt="">
+                        <div class="company-slider__content">
+                            <h1 class="company-slider__title"><?=$slide['company_name']?></h1>
+                        </div>
+                    </a>
+                <?php endforeach;?>
+            </div>
             <div class="js-accordion st-accordion">
                 <?php foreach ($accordion as $accordion_item):?>
                     <div class="js-accordion-item st-accordion__item">
